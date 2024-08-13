@@ -68,6 +68,21 @@ main {
     align-items: center;
 }
 
+/* hamburger */
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger>span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+
+}
+
 .nav-bar,
 .banner-container {
     max-width: 1440px;
@@ -97,6 +112,8 @@ main {
     font-weight: 600;
     border-radius: 50px;
     border: none;
+    margin-right: 14px;
+    cursor: pointer;
 }
 
 .header-secondary-btn {
@@ -106,10 +123,7 @@ main {
     padding: 16px 46.5px;
     font-size: 1.125;
     font-weight: 600;
-}
-
-.header-btn {
-    margin-right: 14px;
+    cursor: pointer;
 }
 
 .nav-links {
@@ -167,7 +181,47 @@ main {
 
 
 @media screen and (max-width: 576px) {
-    .nav-links {
-        display: hidden;
+    body {
+        padding: 20px;
     }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-links {
+        border: none;
+    }
+
+    .hamburger {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .banner-header {
+        font-size: 2.25rem;
+        padding-right: 150px;
+        /* padding-left: 20px; */
+    }
+
+    .video-tutorial {
+        margin-top: -302px;
+        margin-left: -10px;
+    }
+
+    .free-workout-Videos {
+        margin-top: -300px;
+        margin-left: 200px;
+        padding-left: 10px;
+    }
+
 }
