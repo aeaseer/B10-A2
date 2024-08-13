@@ -170,6 +170,12 @@ main {
     font-weight: 900;
     font-size: 1.5rem;
 }
+.play-button{
+    width: 20px;
+    height: 20px;
+    filter: invert(100);
+    display: none;
+}
 
 .ball {
     height: 40px;
@@ -179,6 +185,41 @@ main {
     margin: 10px 10px 10px -10px;
 }
 
+.main-header {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 7px 7px #0000006d;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.main-para {
+    font-size: .875rem;
+    text-align: center;
+}
+
+.m-t-p-w-container {
+    margin-top: 58px;
+    justify-content: space-around;
+}
+
+.m-t-p-w-cards {
+    text-align: center;
+}
+
+.m-t-p-w-images {
+    border-radius: 50%;
+}
+
+.m-t-p-w-h4 {
+    margin-bottom: 0px;
+}
+
+.m-t-p-w-h5 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: .875rem;
+}
 
 @media screen and (max-width: 576px) {
     body {
@@ -226,6 +267,24 @@ main {
         margin-top: -300px;
         margin-left: 200px;
         padding-left: 10px;
+    }
+    .main-header{
+        font-size: 2rem;
+    }
+
+    .m-t-p-w-container {
+        /* margin-top: 58px; */
+        flex-direction: column;
+    }
+
+    .main-header-container {
+        margin-top: 250px;
+    }
+    .play-button{
+display: block;
+position: relative;
+ margin-top: 150px;
+ margin-left: 25px;
     }
 
 }
