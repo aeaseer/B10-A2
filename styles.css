@@ -212,6 +212,9 @@ main {
         padding-right: 150px;
         /* padding-left: 20px; */
     }
+    .banner-image {
+        margin-right: 0px;
+    }
 
     .video-tutorial {
         margin-top: -302px;
