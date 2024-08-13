@@ -170,7 +170,8 @@ main {
     font-weight: 900;
     font-size: 1.5rem;
 }
-.play-button{
+
+.play-button {
     width: 20px;
     height: 20px;
     filter: invert(100);
@@ -268,7 +269,8 @@ main {
         margin-left: 200px;
         padding-left: 10px;
     }
-    .main-header{
+
+    .main-header {
         font-size: 2rem;
     }
 
@@ -277,14 +279,40 @@ main {
         flex-direction: column;
     }
 
+    /* .main-header-container {
+        margin-top: 250px;
+    }
+
+    .play-button {
+        display: block;
+        position: relative;
+        margin-top: 150px;
+        margin-left: 25px;
+    } */
+
+}
+
+@media screen and (min-width: 430px) and (max-width: 576px) {
     .main-header-container {
         margin-top: 250px;
     }
-    .play-button{
-display: block;
-position: relative;
- margin-top: 150px;
- margin-left: 25px;
+
+    .play-button {
+        display: block;
+        position: relative;
+        margin-top: 165px;
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width: 429px) {
+    .main-header-container {
+        margin-top: 250px;
     }
 
+    .play-button {
+        display: block;
+        position: relative;
+        margin-top: 150px;
+        margin-left: 25px;
+    }
 }
