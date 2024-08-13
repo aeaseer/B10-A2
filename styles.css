@@ -54,7 +54,8 @@ main {
 }
 
 .fitness-header {
-    font-size: 2em;
+    font-size: 2.25em;
+    font-weight: 800;
 }
 
 .nav-item {
@@ -71,13 +72,13 @@ main {
 .banner-container {
     max-width: 1440px;
     margin: 0 auto;
-    /* padding-bottom: 20px; */
+    padding-bottom: 20px;
 }
 
 .banner-header {
     font-size: 4.875rem;
     font-weight: 800;
-    text-shadow:7px 7px #0000006d;
+    text-shadow: 7px 7px #0000006d;
 }
 
 
@@ -86,7 +87,7 @@ main {
 }
 
 .banner-content {
-    padding-right: 500px;
+    padding-right: 450px;
 }
 
 .header-primary-btn {
@@ -110,22 +111,26 @@ main {
 .header-btn {
     margin-right: 14px;
 }
-.nav-links{
+
+.nav-links {
     border: 1px solid #333232;
     border-radius: 50px;
     padding: 12px 20px;
 }
-.banner-image{
+
+.banner-image {
     margin-right: 150px;
 }
 
 
-.nav-home{
+.nav-home {
     background-color: #e6533c;
     border-radius: 50px;
     padding: 10px 20px;
 }
-.video-tutorial, .free-workout-Videos{
+
+.video-tutorial,
+.free-workout-Videos {
     position: relative;
     border: .5px solid #333232;
     align-items: center;
@@ -139,18 +144,20 @@ main {
     margin-left: -110px;
     background-color: rgba(54, 48, 48, 0.429);
     backdrop-filter: blur(8px)
-    }
-    .free-workout-Videos{
-        margin-top: -350px;
-        margin-left: 220px; 
-        padding-left: 10px; 
-    }
-    
-.header-poster-1{
+}
+
+.free-workout-Videos {
+    margin-top: -350px;
+    margin-left: 220px;
+    padding-left: 10px;
+}
+
+.header-poster-1 {
     font-weight: 900;
     font-size: 1.5rem;
 }
-.ball  {
+
+.ball {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -160,7 +167,7 @@ main {
 
 
 @media screen and (max-width: 576px) {
-    .nav-links{
+    .nav-links {
         display: hidden;
     }
 }
