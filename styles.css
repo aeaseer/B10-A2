@@ -337,6 +337,7 @@ main {
     justify-content: space-around;
     padding: 0px 400px 66px;
     justify-items: center;
+    /* gap: 100px; */
 }
 
 .fitness-container {
