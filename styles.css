@@ -106,6 +106,7 @@ main {
 }
 
 .header-primary-btn {
+    width: 224px;
     background-color: #e6533c;
     padding: 16px 46.5px;
     font-size: 1.125;
@@ -189,7 +190,6 @@ main {
 .main-header {
     font-size: 3rem;
     font-weight: 800;
-    text-shadow: 7px 7px #0000006d;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -210,6 +210,7 @@ main {
 
 .m-t-p-w-images {
     border-radius: 50%;
+    border: 4px solid #333232;
 }
 
 .m-t-p-w-h4 {
@@ -218,8 +219,47 @@ main {
 
 .m-t-p-w-h5 {
     margin-top: 10px;
+    font-weight: 400;
     margin-bottom: 20px;
     font-size: .875rem;
+}
+
+.run-extra-mile-container {
+    margin-top: 100px;
+    background-color: #262626;
+    border-radius: 20px;
+    padding: 30px 54px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.run-extra-mile-header {
+    font-size: 3.35rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.run-extra-mile-para {
+    font-size: 1rem;
+}
+
+.run-image-container {
+    width: 25.4%;
+    height: 312px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.run-image-container>img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: -200px;
+    left: -770px;
 }
 
 @media screen and (max-width: 576px) {
@@ -289,8 +329,32 @@ main {
         margin-top: 150px;
         margin-left: 25px;
     } */
+    .run-extra-mile-container {
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .run-image-container {
+        width: 120%;
+    }
+
+    .header-primary-btn-below {
+        width: 100%;
+    }
+
+    .run-extra-mile-header {
+        font-size: 2rem;
+    }
 }
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 430px) and (max-width: 576px) {
     .main-header-container {
@@ -304,6 +368,7 @@ main {
         margin-left: 25px;
     }
 }
+
 @media screen and (max-width: 429px) {
     .main-header-container {
         margin-top: 250px;
