@@ -276,43 +276,49 @@ main {
 
 }
 
-.image-and-text-container>img{
+.image-and-text-container>img {
     width: 100%;
     height: 400px;
     object-fit: cover;
     position: relative;
 }
-.team-container-h4{
+
+.team-container-h4 {
     font-size: 1.25rem;
     margin-bottom: 10px;
 }
 
-.text-container{
+.text-container {
     position: absolute;
-    
+
 }
 
-.text-container-1{
+.text-container-1 {
     top: 2170px;
     left: 280px;
 }
-.text-container-2{
+
+.text-container-2 {
     top: 2170px;
     left: 750px;
 }
-.text-container-3{
+
+.text-container-3 {
     top: 2170px;
     left: 1230px;
 }
-.text-container-4{
+
+.text-container-4 {
     top: 2600px;
     left: 280px;
 }
-.text-container-5{
+
+.text-container-5 {
     top: 2600px;
     left: 750px;
 }
-.text-container-6{
+
+.text-container-6 {
     top: 2600px;
     left: 1230px;
 }
@@ -330,7 +336,7 @@ main {
 .footer-container {
     background-color: #262626;
     margin-top: 88px;
-    
+
 }
 
 .footer-content {
@@ -468,41 +474,49 @@ main {
     .run-extra-mile-header {
         font-size: 2rem;
     }
-    .team-container{
+
+    .team-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    .image-and-text-container>img{
+
+    .image-and-text-container>img {
         width: 100%;
         height: 300px;
         object-fit: cover;
         position: relative;
     }
-    .text-container{
+
+    .text-container {
         position: absolute;
-        
+
     }
-    
-    .text-container-1{
+
+    .text-container-1 {
         top: 3630px;
         left: 70px;
     }
-    .text-container-2{
+
+    .text-container-2 {
         top: 3960px;
         left: 70px;
     }
-    .text-container-3{
+
+    .text-container-3 {
         top: 4290px;
         left: 70px;
     }
-    .text-container-4{
+
+    .text-container-4 {
         top: 4620px;
         left: 70px;
     }
-    .text-container-5{
+
+    .text-container-5 {
         top: 4950px;
         left: 70px;
     }
-    .text-container-6{
+
+    .text-container-6 {
         top: 5280px;
         left: 70px;
     }
